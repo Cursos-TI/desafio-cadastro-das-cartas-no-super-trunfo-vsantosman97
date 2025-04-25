@@ -7,6 +7,14 @@
 //Teste larissa
 
 int main() {
+
+    char estado[20];
+
+    printf("Bem-vindo ao jogo do Super trunfo \n");
+    printf("Vamos começar digitando os dados da sua carta\n");
+    printf("Digite o estado \n");
+    scanf ("%s", estado);
+    printf("O estado escolhido e: %s\n ", estado);
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
     
