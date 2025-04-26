@@ -3,9 +3,9 @@
 int main() {
 
     char 
-        estado[20],
+        estado[50],
         codigodacarta[5],
-        cidade[20];
+        cidade[50];
     int
         populacao,
         pontosturisticos;
@@ -16,11 +16,11 @@ int main() {
         printf("Bem-vindo ao jogo Super Trunfo Países!\n\n");
         printf("Vamos fazer o cadastro da primeira carta?\n\n");
         printf("Informe um estado:\n");
-        fgets(estado, 20, stdin);
+        fgets(estado, 50, stdin);
         printf("Iforme um codigo para sua carta:\n");
         fgets(codigodacarta, 20, stdin);
         printf("Informe a cidade:\n");
-        fgets(cidade, 20, stdin);
+        fgets(cidade, 50, stdin);
         printf("informe o numero de habitantes da cidade: \n");
         scanf("%d", &populacao);
         printf("Informe a área da cidade em quilômetros quadrados:\n");
