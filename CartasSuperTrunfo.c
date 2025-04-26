@@ -16,7 +16,7 @@ int main() {
         printf("Bem-vindo ao jogo Super Trunfo Países!\n\n");
         printf("Vamos fazer o cadastro da primeira carta?\n\n");
         printf("Informe um estado:\n");
-        scanf(" %s", estado);
+        fgets(estado, 20, stdin);
         printf("Iforme um codigo para sua carta:\n");
         fgets(codigodacarta, 20, stdin);
         printf("Informe a cidade:\n");
