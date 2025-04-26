@@ -22,7 +22,7 @@ int main() {
         printf("Informe a cidade:\n");
         fgets(cidade, 20, stdin);
         printf("informe o numero de habitantes da cidade: \n");
-        scanf("%d", populacao);
+        scanf("%d", &populacao);
         printf("Informe a área da cidade em quilômetros quadrados:\n");
         scanf("%f", area);
         printf("Informe o produto Interno bruto da cidade:\n");
