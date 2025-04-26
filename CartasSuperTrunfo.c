@@ -31,11 +31,11 @@ int main() {
         scanf("%d", &pontosturisticos);
 
         printf("Carta 1:\n");
-        printf("Estado: %s\n", estado);
-        printf("Código: %s\n", codigodacarta);
-        printf("Nome da Cidade: %s\n", cidade);
+        printf("Estado: %s", estado);
+        printf("Código: %s", codigodacarta);
+        printf("Nome da Cidade: %s", cidade);
         printf("População:%d \n", populacao);
-        printf("Área:%f", area, "km²\n");
+        printf("Área:%f", area, &"km²\n");
         printf("PIB:%f", pib, "de reais\n");
         printf("Número de Pontos Turísticos:%d\n", pontosturisticos);
 
