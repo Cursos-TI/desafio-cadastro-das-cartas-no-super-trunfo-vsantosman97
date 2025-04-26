@@ -24,20 +24,20 @@ int main() {
         printf("informe o numero de habitantes da cidade: \n");
         scanf("%d", &populacao);
         printf("Informe a área da cidade em quilômetros quadrados:\n");
-        scanf("%f", area);
+        scanf("%f", &area);
         printf("Informe o produto Interno bruto da cidade:\n");
-        scanf("%f", pib);
+        scanf("%f", &pib);
         printf("Informe a quantidade de pontos turisticos na cidade: \n");
-        scanf("%d", pontosturisticos);
+        scanf("%d", &pontosturisticos);
 
         printf("Carta 1:\n");
-        printf("Estado: %s", estado);
-        printf("Código: %s", codigodacarta);
-        printf("Nome da Cidade: %s", cidade);
-        printf("População:%d");
-        printf("Área:%f", area, "km²");
-        printf("PIB:%f", pib, "de reais");
-        printf("Número de Pontos Turísticos:%d", pontosturisticos);
+        printf("Estado: %s\n", estado);
+        printf("Código: %s\n", codigodacarta);
+        printf("Nome da Cidade: %s\n", cidade);
+        printf("População:%d \n", populacao);
+        printf("Área:%f", area, "km²\n");
+        printf("PIB:%f", pib, "de reais\n");
+        printf("Número de Pontos Turísticos:%d\n", pontosturisticos);
 
     
     return 0;
